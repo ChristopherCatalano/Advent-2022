@@ -4,7 +4,7 @@ const path = require('path')
 //import data to be used. 
 const data = fs.readFileSync(path.resolve(__dirname, 'data.txt'), 'utf8');
 
-//parse the provided list, convert into an array of int objects. 
+//parse the provided list, convert into an array of ints 
 parseFoodList = (input) => {
     const elfCount = (input.match(/(?:\s)\s/g) || []).length
     const parsedData = input.split(/(?:\s)\s/g, elfCount);

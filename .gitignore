@@ -126,3 +126,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 Day1/data.txt
+Day1/package-lock.json
