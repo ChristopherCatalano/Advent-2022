@@ -127,3 +127,4 @@ dist
 .pnp.*
 Day1/data.txt
 Day1/package-lock.json
+*.txt
