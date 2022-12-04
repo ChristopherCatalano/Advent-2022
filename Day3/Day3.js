@@ -41,11 +41,10 @@ badges = (groupIndex) => {
         const thirdGroupIndex = parsedData[groupIndex + 2].indexOf(parsedData[groupIndex][i]);
        
         if (secondGroupIndex !== -1 && thirdGroupIndex !== -1) {
+            groupCount = 3; 
             return parsedData[groupIndex][i];
         }      
     }
-    
-    groupCount = 3; 
 }
 
 
@@ -56,9 +55,7 @@ parsedData.forEach((rucksack, index) => {
     //badge and group check
     while (groupCount === 0) {
         const matchedLetter = badges(index);     
-        badgePrioritySum += priotize(matchedLetter);  
-
-        groupCount = 3;
+        badgePrioritySum += priotize(matchedLetter);
     }
 
     groupCount--;
