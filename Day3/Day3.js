@@ -1,4 +1,3 @@
-const { group } = require('console');
 const fs = require('fs');
 const { parse } = require('path');
 const path = require('path')
