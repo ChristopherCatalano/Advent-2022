@@ -128,3 +128,5 @@ dist
 Day1/data.txt
 Day1/package-lock.json
 *.txt
+Day6/package-lock.json
+Day6/package.json
